@@ -15,6 +15,9 @@ Resources related to coSpaces in the API.
 ## coSpaces Collection [/coSpaces]
 
 ### List All coSpaces [GET]
+
+Return a list of coSpaces
+
 + Parameters
     + filter (string, optional)
     + offset (number, optional)
@@ -37,6 +40,9 @@ Resources related to coSpaces in the API.
 
 
 ### Create a new coSpace [POST]
+
+Create a coSpace
+
 + Parameters
     + name (string, optional)
     + uri (string, optional)
@@ -81,6 +87,9 @@ Resources related to coSpaces in the API.
 
 
 ### Modify a coSpace [PUT /coSpaces/{id}]
+
+Modify a coSpace
+
 + Parameters
     + id: `a134ae38-7559-4b67-bb01-237d8db33849` (string, required)
     + name (string, optional)
@@ -119,6 +128,9 @@ Resources related to coSpaces in the API.
 
 
 ### Retrieving the members of a coSpace [GET /coSpaces/{id}/coSpaceUsers]
+
+Return a list of coSpace members
+
 + Parameters
     + id: `a134ae38-7559-4b67-bb01-237d8db33849` (string, required)
     + filter (string, optional)
@@ -138,6 +150,9 @@ Resources related to coSpaces in the API.
 
 
 ### Adding a member to a coSpace [POST /coSpaces/{id}/coSpaceUsers]
+
+Create a coSpace member
+
 + Parameters
     + id: `a134ae38-7559-4b67-bb01-237d8db33849` (string, required)
     + userJID (ID)
@@ -159,6 +174,9 @@ Resources related to coSpaces in the API.
 
 
 ### Modify a coSpace member [PUT /coSpaces/{id}/coSpaceUsers/{id}]
+
+Modify a coSpace member
+
 + Parameters
     + id: `a134ae38-7559-4b67-bb01-237d8db33849` (string, required)
     + callLegProfile (ID, optional)
@@ -500,7 +518,7 @@ Something fancy goes here
 
 ### Do something awesome [POST]
 
-This is some text to describe what this request does.s
+This is some text to describe what this request does.
 
 + Attributes (object)
     + message
