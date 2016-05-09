@@ -47,8 +47,6 @@ Return a list of coSpaces
 
 Create a coSpace
 
-+ Request without body
-
 + Response 200
     + Headers
 
@@ -59,13 +57,13 @@ Create a coSpace
         + name (string, optional)
         + uri (string, optional)
         + secondaryUri (string, optional)
-        + callId (ID, optional)
+        + callId (string, optional)
         + cdrTag (string, optional)
         + passcode (string, optional)
-        + tenant (ID, optional)
-        + callLegProfile (ID, optional)
-        + callProfile (ID, optional)
-        + callBrandingProfile (ID, optional)
+        + tenant (string, optional)
+        + callLegProfile (string, optional)
+        + callProfile (string, optional)
+        + callBrandingProfile (string, optional)
         + requireCallId (boolean, optional)
         + secret (string, optional)
         + regenerateSecret (boolean, optional)
