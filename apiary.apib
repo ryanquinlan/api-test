@@ -54,8 +54,8 @@ Create a coSpace
 
 + Request (application/x-www-form-urlencoded)
     + Attributes
-        + name (string, optional)
-        + uri (string, optional)
+        + name: `My fancy space` (string) - Name for the space.
+        + uri: `space1` (string) - User portion of the URI used to dial the space.
         + secondaryUri (string, optional)
         + callId (string, optional)
         + cdrTag (string, optional)
@@ -64,9 +64,9 @@ Create a coSpace
         + callLegProfile (string, optional)
         + callProfile (string, optional)
         + callBrandingProfile (string, optional)
-        + requireCallId (boolean, optional)
+        + requireCallId: `true` (boolean)
         + secret (string, optional)
-        + regenerateSecret (boolean, optional)
+        + regenerateSecret: `false` (boolean) - Regenerate the WebBridge secret.
 
     + Body
 
