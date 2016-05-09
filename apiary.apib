@@ -47,34 +47,6 @@ Return a list of coSpaces
 
 Create a coSpace
 
-+ Parameters
-    + name (string, optional)
-    + uri (string, optional)
-    + secondaryUri (string, optional)
-    + callId (ID, optional)
-    + cdrTag (string, optional)
-    + passcode (string, optional)
-    + defaultLayout (enum[string], optional)
-        + Members
-            + allEqual
-            + speakerOnly
-            + telepresence
-            + stacked
-            + allEqualQuarters
-            + allEqualNinths
-            + allEqualSixteenths
-            + allEqualTwentyFifths
-            + onePlusFive
-            + onePlusSeven
-            + onePlusNine
-    + tenant (ID, optional)
-    + callLegProfile (ID, optional)
-    + callProfile (ID, optional)
-    + callBrandingProfile (ID, optional)
-    + requireCallId (boolean, optional)
-    + secret (string, optional)
-    + regenerateSecret (boolean, optional)
-
 + Request without body
 
 + Response 200
@@ -83,6 +55,34 @@ Create a coSpace
             Location: ID
 
 + Request with body (application/x-www-form-urlencoded)
+    + Attributes
+        + name (string, optional)
+        + uri (string, optional)
+        + secondaryUri (string, optional)
+        + callId (ID, optional)
+        + cdrTag (string, optional)
+        + passcode (string, optional)
+        + defaultLayout (enum[string], optional)
+            + Members
+                + allEqual
+                + speakerOnly
+                + telepresence
+                + stacked
+                + allEqualQuarters
+                + allEqualNinths
+                + allEqualSixteenths
+                + allEqualTwentyFifths
+                + onePlusFive
+                + onePlusSeven
+                + onePlusNine
+        + tenant (ID, optional)
+        + callLegProfile (ID, optional)
+        + callProfile (ID, optional)
+        + callBrandingProfile (ID, optional)
+        + requireCallId (boolean, optional)
+        + secret (string, optional)
+        + regenerateSecret (boolean, optional)
+
     + Body
 
             name=MyNewCoSpace
